@@ -33,7 +33,8 @@ def main():
 
         for row in reader:
             ## Splits data in csv, in case of multiple values in one cell
-            ## This only applies to a specific scenario, I should make probably rethink and rewrite this part
+            ## This only applies to a specific scenario, I should probably rethink and rewrite this part
+            # todo: validation for input csv - check if same delimiters are used for headers and data rows
             attachments_split = row[attachment_index].split(cell_delimiter)[3]
             columns = {issues: row[issue_index], attachments: attachments_split}
             imported_csv.append(columns)
