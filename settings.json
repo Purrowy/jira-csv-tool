@@ -1,0 +1,10 @@
+{
+    "token": "xxx",
+    "keywords": ["masno"],
+    "days": 14,
+    "path": "work/",
+    "timestampFormat": "%a %d %b %Y",
+    "issueColumn": "Issue key",
+    "attColumn": "Attachment",
+    "inputCellDelimiter": ";"
+}
